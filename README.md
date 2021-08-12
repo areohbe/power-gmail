@@ -1,3 +1,5 @@
+![Power Gmail app icon](https://github.com/areohbe/power-gmail/blob/main/src/icon/icon64.png?raw=true)
+
 # Power Gmail
 
 ## Install extension
