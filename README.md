@@ -3,7 +3,7 @@
 # Power Gmail
 
 ## Install extension
-1. Download [`.zip`](https://github.com/areohbe/power-gmail/releases/latest/download/power-gmail.zip)
+1. Download [`.zip`](https://github.com/areohbe/power-gmail/releases/latest)
 2. Open `chrome://extensions`
 3. Enable "Developer mode"
 4. Drag & drop `.zip` into window
