@@ -1,0 +1,24 @@
+{
+  "icons": {
+    "16": "./icon/icon16.png",
+    "48": "./icon/icon48.png",
+    "128": "./icon/icon128.png"
+  },
+  "homepage_url": "https://areohbe.github.io/power-gmail/",
+  "background": {
+    "scripts": ["background/index.ts"],
+    "persistent": false,
+    "matches": ["https://mail.google.com/*"]
+  },
+  "permissions": ["storage", "!management"],
+  "content_scripts": [
+    {
+      "js": ["content/index.ts"],
+      "matches": ["https://mail.google.com/*"]
+    }
+  ],
+  "options_page": "options/index.html",
+  "browser_action": {
+    "default_popup": "popup/index.html"
+  }
+}

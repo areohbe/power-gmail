@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+      "module": "esnext",
+      "types": ["svelte", "chrome", "got"],
+      "noUnusedLocals": true,
+  },
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "include": ["src/**/*", "src/lib/config/config.ts", "src/.d.ts", "src/.d.ts"],
+  "exclude": ["node_modules/*", "dist/*"]
+}
