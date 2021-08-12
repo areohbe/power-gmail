@@ -11,18 +11,9 @@
 ## Local Development
 1. `git clone https://github.com/areohbe/power-gmail.git`
 2. `cd power-gmail`
-
-### Extension
-1. `cd app`
-2. `yarn install`
-3. `yarn dev`
-4. Open `chrome://extensions`
-5. Enable "Developer mode"
-6. "Loan unpacked"
-7. Select `power-gmail/app/dist` from your local environment
-
-
-### Github Pages site
-1. `cd site`
-2. Install [hugo](https://gohugo.io/getting-started/installing/)
-3. `hugo server` to build site
+3. `yarn install`
+4. `yarn dev`
+5. Open `chrome://extensions`
+6. Enable "Developer mode"
+7. "Loan unpacked"
+8. Select `power-gmail/app/dist` from your local environment
